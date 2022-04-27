@@ -52,5 +52,8 @@ Cập nhật quan trọng V0.1.0
 
 Tóm tắt: Tải về và giải nén cùng trong folder của bot. Sau đó chạy "UpdateBotAI.exe", nó sẽ tự thay thế các bản cũ.
 
+Không thể chạy phần mềm?
+===
+Hãy xem những vấn đề đã được giải quyết [tại đây](https://github.com/kgemas/League-AI/issues?q=is%3Aissue+is%3Aclosed).
 
 Good luck 🐱‍👤
