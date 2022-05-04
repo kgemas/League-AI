@@ -12,12 +12,19 @@
 - Mở folder đã cài đặt, tìm đến file cấu hình ```config.json```.
 - Tiếp theo, hãy sửa đổi đường dẫn đến folder game của bạn và lưu lại.
 ```
-// Chỉnh sửa thư mục game tương ứng ở đây, thư mục "32787"
+// Chỉnh sửa thư mục game tương ứng ở đây, thư mục "32787" (máy chủ garena).
 "DefaultLeaguePath": "E:\\GamePC\\Garena\\Games\\32787"
 ```
 
 - Sau khi cấu hình xong, khởi chạy chương trình "LeagueAI.exe" và nhập Key (nếu có).
 - Để màn hình mở và đi ăn chơi nhảy nhót 💃
+
+- Nếu bạn sử dụng cấu hình garena, thì bỏ qua phần cấu hình ```config.json``` máy chủ NA này.
+```
+- Với máy chỉ NA, chỉ cần xoá hết cấu hình của garena đi (hoặc comment lại, mặc định thì folder game máy chủ này mặc định ở trong C:/Riot Games).
+- Sau đó bỏ các dấu /* và */ đi (bỏ comment cấu hình của máy chủ NA).
+- Hãy chú ý tệp json phải đúng định dạng, bạn có thể sẽ phải tìm kiếm google theo từ khoá "validate json online" để kiểm tra.
+```
 
 Mô trường hoạt động
 =============================================================================================
