@@ -53,7 +53,7 @@ Tuỳ chỉnh nâng cao
     "8": "W",
   }
 ```
-Cập nhật quan trọng V0.1.0
+Cập nhật quan trọng mọi phiên bản.
 ===
 Để có thể cập nhật nhanh chóng bot này, các bạn hãy tải về "Bot cập nhật LeagueAI" [tại đây](https://github.com/kgemas/Tool-Update-LeagueAI/releases/download/v1.0.0/UpdateBotAI.zip).
 
@@ -63,6 +63,12 @@ Chi tiết về cách cài đặt và sử dụng công cụ update này, xem th
 
 Không thể chạy phần mềm?
 ===
-Hãy xem những vấn đề đã được giải quyết [tại đây](https://github.com/kgemas/League-AI/issues?q=is%3Aissue+is%3Aclosed).
+Như một cao nhân đã nói
+> Hãy thử cập nhật phần mềm nếu gặp lỗi 💥 vì rất có thể vấn đề đó đã được giải quyết rồi đó!
 
-Good luck 🐱‍👤
+Các bạn có thể theo dõi những vấn đề **đã được giải quyết** [tại đây](https://github.com/kgemas/League-AI/issues?q=is%3Aissue+is%3Aclosed).
+
+Hoặc xem những vấn đề **đang xử lý** [tại đây](https://github.com/kgemas/League-AI/issues?q=is%3Aopen+is%3Aissue).
+
+
+Good luck 🐱‍👤🎶
