@@ -33,6 +33,7 @@ Mô trường hoạt động
 Tuỳ chỉnh nâng cao
 =============================================================================================
 - Hãy cẩn thận trong khi chỉnh sửa, bạn có thể khám phá các tuỳ chọn khác tại tệp config.json trong thư mục cài đặt.
+- Nếu như trong quá trình khởi chạy gặp lỗi không thể kết nối đến máy chủ, hãy thử sửa tên miền "kemmta.ddns.net" -> "khaivu.dev".
 - Một vài tuỳ chọn khác có thể sử dụng:
 ```
 // số lượng game mà bot sẽ tự chơi
