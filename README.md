@@ -1,41 +1,55 @@
+Bot auto play League of Legends
+==========
+
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=380&lines=Bot+AI+League+of+Legends">
 </p>
 <p align="center">
-  Bot auto play League of Legends
   <img src="./Assets/LOLBot.png">
 </p>
 
-30s Cài đặt.
-=============================================================================================
-- Đầu tiên hãy mở game lên nè.
-- Mở folder đã cài đặt, tìm đến file cấu hình ```config.json```.
-- Tiếp theo, hãy sửa đổi đường dẫn đến folder game của bạn và lưu lại.
+Đây là gì?
+==========
+- Đây là con bot tự chơi game liên minh huyền thoại.
+- Được phát hành để thử nghiệm các công nghệ mới, nó chỉ sử dụng các api có sẵn được công khai và hoàn toàn không can thiệp vào game.
+- Cách hoạt động của bot này là thao tác bàn phím và chuột giống như người chơi.
+<details open>
+  <summary>Mở rộng / Thu nhỏ</summary>
+  <p align="center">
+    <img src="./Assets/example.gif">
+  </p>
+</details>
+
+
+30 giây cài đặt.
+===========
+- **Bước 1**: Hãy mở game client lên. Màn hình sẽ có mấy menu như này.
+<p align="center">
+  <img src="./Assets/dashboard.PNG">
+</p>
+
+- **Bước 2**: Mở folder đã giải nén (hoặc cài đặt), tìm đến file cấu hình ```config.json```. Hãy sửa đổi đường dẫn đến thư mục game của bạn và lưu cài đặt lại.
 ```
-// Chỉnh sửa thư mục game tương ứng ở đây, thư mục "32787" (máy chủ garena).
+// Với máy chủ garena, trỏ đến thư mục "32787".
 "DefaultLeaguePath": "E:\\GamePC\\Garena\\Games\\32787"
 ```
+> Nếu bạn sử dụng ở máy chỉ NA, chỉ cần xoá hết cấu hình của garena đi (hoặc comment lại, mặc định thì folder game máy chủ này mặc định ở trong C:/Riot Games).
 
-- Sau khi cấu hình xong, khởi chạy chương trình "LeagueAI.exe" và nhập Key (nếu có).
-- Để màn hình mở và đi ăn chơi nhảy nhót 💃
-
-- Nếu bạn sử dụng cấu hình garena, thì bỏ qua phần cấu hình ```config.json``` máy chủ NA này.
-```
-- Với máy chỉ NA, chỉ cần xoá hết cấu hình của garena đi (hoặc comment lại, mặc định thì folder game máy chủ này mặc định ở trong C:/Riot Games).
-- Sau đó bỏ các dấu /* và */ đi (bỏ comment cấu hình của máy chủ NA).
-- Hãy chú ý tệp json phải đúng định dạng, bạn có thể sẽ phải tìm kiếm google theo từ khoá "validate json online" để kiểm tra.
-```
+- **Bước 3**: Chạy chương trình ```LeagueAI.exe``` và nhập Key (nếu có).
+- Done 🎉 Giữ màn hình không khoá lại và đi chơi thôi 💃
 
 Mô trường hoạt động
-=============================================================================================
-- .NET Framework 4.7.2 Runtime [Tải về ở đây](https://go.microsoft.com/fwlink/?LinkId=863262).
+===========
+- Cài đặt .NET Framework 4.7.2 Runtime [Tải về ở đây](https://go.microsoft.com/fwlink/?LinkId=863262).
+- Đường dẫn tải về https://go.microsoft.com/fwlink/?LinkId=863262
 
-Tuỳ chỉnh nâng cao
-=============================================================================================
-- Hãy cẩn thận trong khi chỉnh sửa, bạn có thể khám phá các tuỳ chọn khác tại tệp config.json trong thư mục cài đặt.
-- Nếu như trong quá trình khởi chạy gặp lỗi không thể kết nối đến máy chủ, hãy thử sửa tên miền "kemmta.ddns.net" -> "khaivu.dev".
-- Một vài tuỳ chọn khác có thể sử dụng:
+Tuỳ chỉnh nâng cao tệp ```config.json```
+===========
 ```
+// để hoạt động ổn định, hãy sửa địa chỉ từ
+// kemmta.ddns.net:44397 -> leaguebot.khaivu.dev
+"hostActive": "https://leaguebot.khaivu.dev"
+
 // số lượng game mà bot sẽ tự chơi
 "maxGame": 8,
 
@@ -44,23 +58,23 @@ Tuỳ chỉnh nâng cao
 
 // thứ tự upgrade skill
 "upgrandSkillMap": {
-    "1": "Q",
-    "2": "W",
-    "3": "E",
-    "4": "Q",
-    "5": "W",
-    "6": "R",
-    "7": "Q",
-    "8": "W",
-  }
+  "1": "Q",
+  "2": "W",
+  "3": "E",
+  "4": "Q",
+  "5": "W",
+  "6": "R",
+  "7": "Q",
+  "8": "W",
+}
 ```
+
 Cập nhật quan trọng mọi phiên bản.
-===
-Để có thể cập nhật nhanh chóng bot này, các bạn hãy tải về "Bot cập nhật LeagueAI" [tại đây](https://github.com/kgemas/Tool-Update-LeagueAI/releases/download/v1.0.0/UpdateBotAI.zip).
-
-Tóm tắt: Tải về và giải nén cùng trong folder của bot. Sau đó chạy "UpdateBotAI.exe", nó sẽ tự thay thế các bản cũ.
-
-Chi tiết về cách cài đặt và sử dụng công cụ update này, xem thêm [tại đây](https://github.com/kgemas/Tool-Update-LeagueAI)
+===========
+- Để quá trình hoạt động ổn định, hãy sửa cài đặt ```"hostActive"``` từ ```kemmta.ddns.net:44397``` thành ```leaguebot.khaivu.dev``` nhé.
+- Để cập nhật các bản vá lỗi nhanh chóng, các bạn hãy tải về [Bot cập nhật LeagueAI](https://github.com/kgemas/Tool-Update-LeagueAI/releases/download/v1.0.0/UpdateBotAI.zip). Giải nén tệp ```"UpdateBotAI.exe"``` và để chung thư mục với bot ```LeagueAI.exe```.
+- Chạy file ```"UpdateBotAI.exe"``` và nó sẽ tự thay thế các bản cũ.
+> Chi tiết về cách cài đặt và sử dụng công cụ update này, xem thêm [tại đây](https://github.com/kgemas/Tool-Update-LeagueAI)
 
 Không thể chạy phần mềm?
 ===
@@ -70,6 +84,5 @@ Như một cao nhân đã nói
 Các bạn có thể theo dõi những vấn đề **đã được giải quyết** [tại đây](https://github.com/kgemas/League-AI/issues?q=is%3Aissue+is%3Aclosed).
 
 Hoặc xem những vấn đề **đang xử lý** [tại đây](https://github.com/kgemas/League-AI/issues?q=is%3Aopen+is%3Aissue).
-
 
 Good luck 🐱‍👤🎶
