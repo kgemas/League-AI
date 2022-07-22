@@ -20,6 +20,11 @@ Bot auto play League of Legends
   </p>
 </details>
 
+Tải về
+==========
+- Phiên bản mới nhất, hãy tải về file [LeagueAI.zip](https://github.com/kgemas/League-AI/releases/latest) nhé.
+- Sau khi tải xong, các bạn có thể so sánh với mã hash md5 để đảm bảo tệp tin mình tải về là an toàn.
+
 
 30 giây cài đặt.
 ===========
