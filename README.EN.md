@@ -21,6 +21,12 @@ What is this?
 </details>
 
 
+Download
+==========
+- Latest version, please download the file [LeagueAI.zip] (https://github.com/kgemas/League-AI/releases/latest).
+- Once the download is done, you can compare it with the md5 hash to ensure that the file you download is safe.
+
+
 30 seconds install.
 ===========
 - **Step 1**: Open the game app. The screen will have several menus like this.
