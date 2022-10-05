@@ -1,12 +1,11 @@
-Bot auto play League of Legends
-==========
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/93424739/194055848-84830c09-dd8a-4017-b691-5198130bd3f0.jpg">
+</h1>
 
-<p align="center">
+<h1 align="center">
+  <p>Bot auto play League of Legends<p>
   <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=380&lines=Bot+AI+League+of+Legends">
-</p>
-<p align="center">
-  <img src="./Assets/LOLBot.png">
-</p>
+</h1>
 
 What is this?
 ==========
