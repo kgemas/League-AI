@@ -7,6 +7,13 @@
   <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=380&lines=Bot+AI+League+of+Legends">
 </h1>
 
+<p align="center">
+  Display language:
+  <a href="https://github.com/kgemas/League-AI/blob/main/README.md">[Vietnamese]</a>
+  -
+  <a href="https://github.com/kgemas/League-AI/blob/main/README.EN.md">[English]</a>
+</p
+
 What is this?
 ==========
 - This is a self-playing bot of league of legends.
