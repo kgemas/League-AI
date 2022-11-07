@@ -97,4 +97,6 @@ Các bạn có thể theo dõi những vấn đề **đã được giải quyế
 
 Hoặc xem những vấn đề **đang xử lý** [tại đây](https://github.com/kgemas/League-AI/issues?q=is%3Aopen+is%3Aissue).
 
+Trong tường hợp gặp phải lỗi chưa từng bị gặp phải, hãy tạo một [vấn đề mới](https://github.com/kgemas/League-AI/issues/new/choose), việc sửa lỗi có thể mất một thời gian từ khi tôi nhận được yêu cầu. Hãy chú ý khi mở một vấn đề nhé.
+
 Good luck 🐱‍👤🎶
