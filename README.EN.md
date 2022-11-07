@@ -95,4 +95,6 @@ Can't run the software?
 
 - Or view issues **in progress** [here](https://github.com/kgemas/League-AI/issues?q=is%3Aopen+is%3Aissue).
 
+- In case you get an error you haven't seen before, [create a new issue](https://github.com/kgemas/League-AI/issues/new/choose), it may take a while to fix because I received a request. Please pay attention when opening an issue.
+
 Good luck 🐱‍👤🎶
