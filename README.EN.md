@@ -80,6 +80,20 @@ Advanced File Customization ```config.json```
 }
 ```
 
+Advanced customization for unsupported servers
+===========
+In some game distributions, you may encounter a case where the file path does not have a default value like in the settings file ```appsettings.json```. The workaround is to point each file to its correct address. There are 6 files that need to be configured manually as shown below.
+
+<p align="center">
+  <img src="./Assets/adventureConfig.PNG">
+</p>
+
+The ```DefaultLeaguePath``` option is the game's root path. All remaining 5 options will have Path = DefaultLeaguePath + "remaining value".
+
+More specifically, for example ```LeagueGameconfigPath``` as shown in the picture will have the actual path as ```G:\\Game\\LOL\\LOL_Game\\32787\\Game\\Config\\game.cfg```.
+
+Find the correct file and shorten the path to match string addition. Until the publisher fixes the bug, this configuration will remain active. Because the software needs to use these profiles to get permission to read the API.
+
 Updates and patches
 ===========
 - To update patches quickly, please download the [LeagueAI Update Bot](https://github.com/kgemas/Tool-Update-LeagueAI/releases/download/v1.0.0/UpdateBotAI.zip). Extract the file ```UpdateBotAI.exe``` and place it in the same folder as the bot ```LeagueAI.exe```.
@@ -95,6 +109,6 @@ Can't run the software?
 
 - Or view issues **in progress** [here](https://github.com/kgemas/League-AI/issues?q=is%3Aopen+is%3Aissue).
 
-- In case you get an error you haven't seen before, [create a new issue](https://github.com/kgemas/League-AI/issues/new/choose), it may take a while to fix because I received a request. Please pay attention when opening an issue.
+- If you have some new unresolved errors, please [create a new issue](https://github.com/kgemas/League-AI/issues/new/choose), it may take 1-2 days for me to process, but please be patient 😂
 
 Good luck 🐱‍👤🎶

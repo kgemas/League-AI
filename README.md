@@ -81,6 +81,19 @@ Tuỳ chỉnh nâng cao tệp ```config.json```
 }
 ```
 
+Tuỳ chỉnh nâng cao cho những máy chủ chưa được hỗ trợ
+===========
+Trong một vài bản phân phối game, có thể bạn sẽ gặp phải trường hợp mà đường dẫn các tệp tin không có giá trị mặc định như trong tệp cài đặt ```appsettings.json```. Cách giải quyết là hãy trỏ từng tệp tin đến đúng địa chỉ của nó. Có 6 tệp tin cần phải cấu hình tay như hình dưới.
+
+<p align="center">
+  <img src="./Assets/adventureConfig.PNG">
+</p>
+
+Tuỳ chọn ```DefaultLeaguePath``` là đường dẫn gốc chứa game. Tất cả 5 tuỳ chọn còn lại sẽ có Đường dẫn = DefaultLeaguePath + "giá trị còn lại". Cụ thể hơn, ví dụ như ```LeagueGameconfigPath``` như trong hình sẽ có đường dẫn thật sự là ```G:\\Game\\LOL\\LOL_Game\\32787\\Game\\Config\\game.cfg```.
+
+Bạn hãy tìm đến đúng file và rút gọn đường dẫn lại để nó phù hợp với cách cộng chuỗi. Cho tới khi nhà phát hành sửa chữa, cách cấu hình này vẫn sẽ hoạt động. Bởi vì phần mềm cần sử dụng những cấu hình này để có quyền đọc API.
+
+
 Cập nhật quan trọng mọi phiên bản.
 ===========
 - Để quá trình hoạt động ổn định, hãy sửa cài đặt ```"hostActive"``` từ ```kemmta.ddns.net:44397``` thành ```leaguebot.khaivu.dev``` nhé.
@@ -97,6 +110,6 @@ Các bạn có thể theo dõi những vấn đề **đã được giải quyế
 
 Hoặc xem những vấn đề **đang xử lý** [tại đây](https://github.com/kgemas/League-AI/issues?q=is%3Aopen+is%3Aissue).
 
-Trong tường hợp gặp phải lỗi chưa từng bị gặp phải, hãy tạo một [vấn đề mới](https://github.com/kgemas/League-AI/issues/new/choose), việc sửa lỗi có thể mất một thời gian từ khi tôi nhận được yêu cầu. Hãy chú ý khi mở một vấn đề nhé.
+Nếu bạn gặp lỗi nào đó mới chưa từng được giải quyết, hãy [tạo một vấn đề mới](https://github.com/kgemas/League-AI/issues/new/choose), có thể sẽ mất 1-2 ngày để tôi giải quyết, nhưng hãy kiên nhẫn nhé 😂
 
 Good luck 🐱‍👤🎶
