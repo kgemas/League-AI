@@ -45,6 +45,7 @@ Mô trường hoạt động
 30 giây cài đặt.
 ===
 - **Bước 1**: Mở folder đã giải nén (hoặc cài đặt), tìm đến file cấu hình ```config.json```. Hãy sửa đổi đường dẫn đến thư mục game của bạn và lưu cài đặt lại.
+
 Với máy chủ do riot quản lý, cần trỏ đến thư mực **Riot Games**
 ```
 "DefaultLeaguePath": "C:/Riot Games"
