@@ -15,48 +15,53 @@
 </p
 
 What is this?
-==========
+===
 - This is a self-playing bot of league of legends.
 - Released to test new technologies, it uses only publicly available apis and does not interfere with the game at all.
 - The way this bot works is to emulate a keyboard and mouse like a player.
 <details open>
   <summary>Expand / Shrink</summary>
   <p align="center">
-    <img src="./Assets/example.gif">
+    <img src="https://github.com/kgemas/League-AI/raw/main/Assets/example.gif">
   </p>
 </details>
 
 
 Download
-==========
+===
 - Latest version, please download the file [LeagueAI.zip] (https://github.com/kgemas/League-AI/releases/latest).
 - Once the download is done, you can compare it with the md5 hash to ensure that the file you download is safe.
 
 
-30 seconds install.
+Environmental requirements
 ===========
-- **Step 1**: Open the game app. The screen will have several menus like this.
-<p align="center">
-  <img src="./Assets/dashboard.PNG">
-</p>
+For the software to work, operating environment packages are required.
+- Install .NET Framework 4.7.2 Runtime [Download Here](https://go.microsoft.com/fwlink/?LinkId=863262).
 
-- **Step 2**: Open the extracted folder (or install), find the configuration file ```config.json```. Please modify the path to your game folder and save the settings again.
+
+30 seconds install.
+===
+- **Step 1**: Open the extracted folder (or install), find the configuration file ```config.json```. Please modify the path to your game folder and save the settings again.
+
+For riot server, point to **Riot Games** directory.
 ```
-// For garena server, point to "32787" directory.
-"DefaultLeaguePath": "E:\\GamePC\\Garena\\Games\\32787"
+"DefaultLeaguePath": "C:/Riot Games"
 ```
-> If only used on NA, just delete all garena configuration (or comment again, default to this game server folder is at C:/Riot Games).
+For garena server, point to **32787** directory.
+```
+"DefaultLeaguePath": "E:/GamePC/Garena/Games/32787"
+```
+
+- **Step 2**: Open the game app. The screen will have several menus like this.
+<p align="center">
+  <img src="https://github.com/kgemas/League-AI/raw/main/Assets/dashboard.PNG">
+</p>
 
 - **Step 3**: Run the program ```LeagueAI.exe``` and enter the Key (if any).
 - Done 🎉 Keep the screen unlocked and go play 💃
 
-Environmental requirements
-===========
-- Install .NET Framework 4.7.2 Runtime [Download Here](https://go.microsoft.com/fwlink/?LinkId=863262).
-- Download link https://go.microsoft.com/fwlink/?LinkId=863262
-
 Advanced File Customization ```config.json```
-===========
+===
 ```
 // server
 "hostActive": "https://leaguebot.khaivu.dev"
@@ -85,7 +90,7 @@ Advanced customization for unsupported servers
 In some game distributions, you may encounter a case where the file path does not have a default value like in the settings file ```appsettings.json```. The workaround is to point each file to its correct address. There are 6 files that need to be configured manually as shown below.
 
 <p align="center">
-  <img src="./Assets/adventureConfig.PNG">
+  <img src="https://github.com/kgemas/League-AI/raw/main/Assets/adventureConfig.PNG">
 </p>
 
 The ```DefaultLeaguePath``` option is the game's root path. All remaining 5 options will have Path = DefaultLeaguePath + "remaining value".
@@ -96,14 +101,30 @@ Find the correct file and shorten the path to match string addition. Until the p
 
 Updates and patches
 ===========
-- To update patches quickly, please download the [LeagueAI Update Bot](https://github.com/kgemas/Tool-Update-LeagueAI/releases/download/v1.0.0/UpdateBotAI.zip). Extract the file ```UpdateBotAI.exe``` and place it in the same folder as the bot ```LeagueAI.exe```.
-- Run the file ```UpdateBotAI.exe``` and it will replace the old version by itself.
-> For detailed information on how to install and use this update tool, [see more](https://github.com/kgemas/Tool-Update-LeagueAI)
+- For stable operation, update to the new version when possible, the latest versions usually include bug fixes and new features.
+- Starting from the following updates, the ```UpdateBotAI.exe``` tool will be attached to the file ```LeagueAI.zip``` at [release](https://github.com/kgemas/League-AI/releases/latest). Run the file ```UpdateBotAI.exe``` and it will replace the old versions by itself.
+
+Support telegram group.
+===
+[LeagueAI - Github Kgemas (Vietnam)](https://t.me/+HBclRDdmP4pjYjNl)
+
+Behavior rules:
+1. For newbie: read the answer using the search function on github + telegram group before asking a question.
+2. With members: be polite and help newcomers when possible.
+
+I created a telegram group to help fix bugs faster, simply because I'm more active here.
+
+The software itself is experimental software for new technologies.
+
+I'm the only developer so it would be great if people help each other and I just need to take care of new unexplored issues.
+
 
 Can't run the software?
 ===
 - As one master said
-> *Try updating the software if you get an error 💥 because most likely that problem is solved!*
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/93424739/212647023-0b3e30a5-bfd2-4bb0-966a-8f32cbb2c587.png">
+</p>
 
 - You can track **resolved** issues [here](https://github.com/kgemas/League-AI/issues?q=is%3Aissue+is%3Aclosed).
 
