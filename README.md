@@ -16,50 +16,58 @@
 </p
 
 Đây là gì?
-==========
+===
 - Đây là con bot tự chơi game liên minh huyền thoại.
 - Được phát hành để thử nghiệm các công nghệ mới, nó chỉ sử dụng các api có sẵn được công khai và hoàn toàn không can thiệp vào game.
 - Cách hoạt động của bot này là thao tác bàn phím và chuột giống như người chơi.
 <details open>
   <summary>Mở rộng / Thu nhỏ</summary>
   <p align="center">
-    <img src="./Assets/example.gif">
+    <img src="https://github.com/kgemas/League-AI/raw/main/Assets/example.gif">
   </p>
 </details>
 
+
 Tải về
-==========
+===
 - Phiên bản mới nhất, hãy tải về file [LeagueAI.zip](https://github.com/kgemas/League-AI/releases/latest) nhé.
 - Sau khi tải xong, các bạn có thể so sánh với mã hash md5 để đảm bảo tệp tin mình tải về là an toàn.
 
 
-30 giây cài đặt.
-===========
-- **Bước 1**: Hãy mở game client lên. Màn hình sẽ có mấy menu như này.
-<p align="center">
-  <img src="./Assets/dashboard.PNG">
-</p>
 
-- **Bước 2**: Mở folder đã giải nén (hoặc cài đặt), tìm đến file cấu hình ```config.json```. Hãy sửa đổi đường dẫn đến thư mục game của bạn và lưu cài đặt lại.
+Mô trường hoạt động
+===========
+Để phần mềm hoạt động được, cần có các gói môi trường hoạt động
+- Cài đặt .NET Framework 4.7.2 Runtime [Tải về ở đây](https://go.microsoft.com/fwlink/?LinkId=863262).
+
+
+
+30 giây cài đặt.
+===
+- **Bước 1**: Mở folder đã giải nén (hoặc cài đặt), tìm đến file cấu hình ```config.json```. Hãy sửa đổi đường dẫn đến thư mục game của bạn và lưu cài đặt lại.
+Với máy chủ do riot quản lý, cần trỏ đến thư mực **Riot Games**
 ```
-// Với máy chủ garena, trỏ đến thư mục "32787".
+"DefaultLeaguePath": "C:/Riot Games"
+```
+Với máy chủ garena, trỏ đến thư mục **32787**.
+```
 "DefaultLeaguePath": "E:\\GamePC\\Garena\\Games\\32787"
 ```
-> Nếu bạn sử dụng ở máy chỉ NA, chỉ cần xoá hết cấu hình của garena đi (hoặc comment lại, mặc định thì folder game máy chủ này mặc định ở trong C:/Riot Games).
+
+- **Bước 2**: Hãy mở game client lên. Màn hình sẽ có mấy menu như này.
+<p align="center">
+  <img src="https://github.com/kgemas/League-AI/raw/main/Assets/dashboard.PNG">
+</p>
 
 - **Bước 3**: Chạy chương trình ```LeagueAI.exe``` và nhập Key (nếu có).
 - Done 🎉 Giữ màn hình không khoá lại và đi chơi thôi 💃
 
-Mô trường hoạt động
-===========
-- Cài đặt .NET Framework 4.7.2 Runtime [Tải về ở đây](https://go.microsoft.com/fwlink/?LinkId=863262).
-- Đường dẫn tải về https://go.microsoft.com/fwlink/?LinkId=863262
+
 
 Tuỳ chỉnh nâng cao tệp ```config.json```
 ===========
 ```
-// để hoạt động ổn định, hãy sửa địa chỉ từ
-// kemmta.ddns.net:44397 -> leaguebot.khaivu.dev
+// địa chỉ máy chủ cộng đồng
 "hostActive": "https://leaguebot.khaivu.dev"
 
 // số lượng game mà bot sẽ tự chơi
@@ -83,28 +91,51 @@ Tuỳ chỉnh nâng cao tệp ```config.json```
 
 Tuỳ chỉnh nâng cao cho những máy chủ chưa được hỗ trợ
 ===========
-Trong một vài bản phân phối game, có thể bạn sẽ gặp phải trường hợp mà đường dẫn các tệp tin không có giá trị mặc định như trong tệp cài đặt ```appsettings.json```. Cách giải quyết là hãy trỏ từng tệp tin đến đúng địa chỉ của nó. Có 6 tệp tin cần phải cấu hình tay như hình dưới.
+Trong một vài bản phân phối game, có thể bạn sẽ gặp phải trường hợp mà đường dẫn các tệp tin không có giá trị mặc định như trong tệp cài đặt ```appsettings.json```. 
+
+Cách giải quyết là hãy trỏ từng tệp tin đến đúng địa chỉ của nó. Có 6 tệp tin cần phải cấu hình tay như hình dưới.
 
 <p align="center">
-  <img src="./Assets/adventureConfig.PNG">
+  <img src="https://github.com/kgemas/League-AI/raw/main/Assets/adventureConfig.PNG">
 </p>
 
-Tuỳ chọn ```DefaultLeaguePath``` là đường dẫn gốc chứa game. Tất cả 5 tuỳ chọn còn lại sẽ có Đường dẫn = DefaultLeaguePath + "giá trị còn lại". Cụ thể hơn, ví dụ như ```LeagueGameconfigPath``` như trong hình sẽ có đường dẫn thật sự là ```G:\\Game\\LOL\\LOL_Game\\32787\\Game\\Config\\game.cfg```.
+Tuỳ chọn ```DefaultLeaguePath``` là đường dẫn gốc chứa game. Tất cả 5 tuỳ chọn còn lại sẽ có ```Đường dẫn = DefaultLeaguePath + "giá trị trong file json"```.
 
-Bạn hãy tìm đến đúng file và rút gọn đường dẫn lại để nó phù hợp với cách cộng chuỗi. Cho tới khi nhà phát hành sửa chữa, cách cấu hình này vẫn sẽ hoạt động. Bởi vì phần mềm cần sử dụng những cấu hình này để có quyền đọc API.
+Cụ thể hơn, ví dụ như ```LeagueGameconfigPath``` như trong hình sẽ có đường dẫn thật sự là ```G:\\Game\\LOL\\LOL_Game\\32787\\Game\\Config\\game.cfg```.
+
+Bạn hãy tìm đến đúng file và rút gọn đường dẫn lại để nó phù hợp với cách cộng chuỗi. Cấu hình những file này để phần mềm có quyền đọc API.
+
 
 
 Cập nhật quan trọng mọi phiên bản.
 ===========
-- Để quá trình hoạt động ổn định, hãy sửa cài đặt ```"hostActive"``` từ ```kemmta.ddns.net:44397``` thành ```leaguebot.khaivu.dev``` nhé.
-- Để cập nhật các bản vá lỗi nhanh chóng, các bạn hãy tải về [Bot cập nhật LeagueAI](https://github.com/kgemas/Tool-Update-LeagueAI/releases/download/v1.0.0/UpdateBotAI.zip). Giải nén tệp ```"UpdateBotAI.exe"``` và để chung thư mục với bot ```LeagueAI.exe```.
-- Chạy file ```"UpdateBotAI.exe"``` và nó sẽ tự thay thế các bản cũ.
-> Chi tiết về cách cài đặt và sử dụng công cụ update này, xem thêm [tại đây](https://github.com/kgemas/Tool-Update-LeagueAI)
+- Để quá trình hoạt động ổn định, hãy cập nhật phiên bản mới khi có thể, các phiên bản mới nhất thường bao gồm các bản sửa lỗi và tính năng mới.
+- Bắt đầu từ các bản cập nhật sau, tool ```UpdateBotAI.exe``` sẽ được đính kèm vào tệp tin ```LeagueAI.zip``` tại các [bản phát hành](https://github.com/kgemas/League-AI/releases/latest). Chạy file ```UpdateBotAI.exe``` và nó sẽ tự thay thế các bản cũ.
+
+
+
+Nhóm telegram hỗ trợ.
+===
+[LeagueAI - Github Kgemas (VN)](https://t.me/+HBclRDdmP4pjYjNl)
+
+Quy tắc ứng xử:
+1. Với người mới: hãy đọc các câu trả lời bằng chức năng tìm kiếm ở github + nhóm telegram trước khi đặt câu hỏi.
+2. Với các thành viên: hãy lịch sự và giúp đỡ người mới khi có thể.
+
+Mình tạo ra nhóm telegram để hỗ trợ sửa lỗi nhanh hơn, đơn giản vì mình hoạt động ở đây nhiều hơn. 
+
+Bản thân phần mềm này là phần mềm thử nghiệm các công nghệ mới.
+
+Mình là người phát triển duy nhất nên sẽ rất tuyệt nếu mọi người giúp đỡ nhau và mình chỉ cần quan tâm đến những vấn đề mới chưa được phát hiện.
+
+
 
 Không thể chạy phần mềm?
 ===
-Như một cao nhân đã nói
-> Hãy thử cập nhật phần mềm nếu gặp lỗi 💥 vì rất có thể vấn đề đó đã được giải quyết rồi đó!
+Như một cao nhân đã nói khi không thể chạy được:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/93424739/212647023-0b3e30a5-bfd2-4bb0-966a-8f32cbb2c587.png">
+</p>
 
 Các bạn có thể theo dõi những vấn đề **đã được giải quyết** [tại đây](https://github.com/kgemas/League-AI/issues?q=is%3Aissue+is%3Aclosed).
 
