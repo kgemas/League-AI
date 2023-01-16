@@ -144,4 +144,13 @@ Hoặc xem những vấn đề **đang xử lý** [tại đây](https://github.c
 
 Nếu bạn gặp lỗi nào đó mới chưa từng được giải quyết, hãy [tạo một vấn đề mới](https://github.com/kgemas/League-AI/issues/new/choose), có thể sẽ mất 1-2 ngày để tôi giải quyết, nhưng hãy kiên nhẫn nhé 😂
 
+Giúp đỡ dự án?
+===
+- Nếu bạn thấy dự án này thú vị, hãy trở thành một trong những người duy trì máy chủ bằng QR bên trái nhé.
+- Nếu bạn muốn cảm ơn nhà phát triển, thì bên phải là chiếc QR của hắn 🐳.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/93424739/212659961-08520136-8fd4-492c-9e2c-73a501fd6426.png" width="600">
+</p>
+
+
 Good luck 🐱‍👤🎶
