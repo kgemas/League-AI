@@ -44,23 +44,14 @@ Mô trường hoạt động
 
 30 giây cài đặt.
 ===
-- **Bước 1**: Mở folder đã giải nén (hoặc cài đặt), tìm đến file cấu hình ```config.json```. Hãy sửa đổi đường dẫn đến thư mục game của bạn và lưu cài đặt lại.
+- **Bước 0**: Từ phiên bản mới nhất (v0.1.13), bot sẽ tự cài đặt dựa trên thư mục của LeagueClient.exe. Trong trường hợp mở lên không chạy thì cần cài đặt thủ công.
 
-Với máy chủ do riot quản lý, cần trỏ đến thư mực **Riot Games**
-```
-"DefaultLeaguePath": "C:/Riot Games"
-```
-Với máy chủ garena, trỏ đến thư mục **32787**.
-```
-"DefaultLeaguePath": "E:\\GamePC\\Garena\\Games\\32787"
-```
-
-- **Bước 2**: Hãy mở game client lên. Màn hình sẽ có mấy menu như này.
+- **Bước 1**: Hãy mở game client lên. Màn hình sẽ có mấy menu như này.
 <p align="center">
   <img src="https://github.com/kgemas/League-AI/raw/main/Assets/dashboard.PNG">
 </p>
 
-- **Bước 3**: Chạy chương trình ```LeagueAI.exe``` và nhập Key (nếu có).
+- **Bước 2**: Chạy chương trình ```LeagueAI.exe``` và nhập Key (nếu có).
 - Done 🎉 Giữ màn hình không khoá lại và đi chơi thôi 💃
 
 
@@ -73,6 +64,12 @@ Tuỳ chỉnh nâng cao tệp ```config.json```
 
 // số lượng game mà bot sẽ tự chơi
 "maxGame": 8,
+
+// tướng ưa thích tự động chơi
+"defaultChampion": "Veigar",
+
+// ngôn ngữ hiển thị (nếu như command line trên máy tính của bạn có thể hiển thị được). Danh sách bên dưới.
+"languageBot": "VI",
 
 // 1 = tự động tắt máy, 0 = không tắt máy
 "autoShutdown": 1,
@@ -89,10 +86,11 @@ Tuỳ chỉnh nâng cao tệp ```config.json```
   "8": "W",
 }
 ```
+Danh sách ngôn ngữ: AM, AR, EU, BN, GB, BR, BG, CA, CHR, HR, CS, DA, NL, EN, ET, FIL, FI, FR, DE, EL, GU, IW, HI, HU, IS, ID, IT, JA, KN, KO, LV, LT, MS, ML, MR, NO, PL, PT, RO, RU, SR, CN, SK, SL, ES, SW, SV, TA, TE, TH, TW, TR, UR, UK, VI, CY.
 
 Tuỳ chỉnh nâng cao cho những máy chủ chưa được hỗ trợ
 ===========
-Trong một vài bản phân phối game, có thể bạn sẽ gặp phải trường hợp mà đường dẫn các tệp tin không có giá trị mặc định như trong tệp cài đặt ```appsettings.json```. 
+Trong một vài bản phân phối game, có thể bạn sẽ gặp phải trường hợp mà đường dẫn các tệp tin không có giá trị mặc định như trong tệp cài đặt ```appsettings.json``` hoặc bot không tự cài đặt được.
 
 Cách giải quyết là hãy trỏ từng tệp tin đến đúng địa chỉ của nó. Có 6 tệp tin cần phải cấu hình tay như hình dưới.
 
