@@ -41,23 +41,14 @@ For the software to work, operating environment packages are required.
 
 30 seconds install.
 ===
-- **Step 1**: Open the extracted folder (or install), find the configuration file ```config.json```. Please modify the path to your game folder and save the settings again.
+- **Step 0**: From the latest versions (v0.1.13), the bot will install itself based on the directory of LeagueClient.exe. In case it does not work, it needs to be installed manually.
 
-For riot server, point to **Riot Games** directory.
-```
-"DefaultLeaguePath": "C:/Riot Games"
-```
-For garena server, point to **32787** directory.
-```
-"DefaultLeaguePath": "E:/GamePC/Garena/Games/32787"
-```
-
-- **Step 2**: Open the game app. The screen will have several menus like this.
+- **Step 1**: Open the game app. The screen will have several menus like this.
 <p align="center">
   <img src="https://github.com/kgemas/League-AI/raw/main/Assets/dashboard.PNG">
 </p>
 
-- **Step 3**: Run the program ```LeagueAI.exe``` and enter the Key (if any).
+- **Step 2**: Run the program ```LeagueAI.exe``` and enter the Key (if any).
 - Done 🎉 Keep the screen unlocked and go play 💃
 
 Advanced File Customization ```config.json```
@@ -68,6 +59,12 @@ Advanced File Customization ```config.json```
 
 // the number of games the bot will play on its own
 "maxGame": 8,
+
+// favorite champion
+"defaultChampion": "Veigar",
+
+// display language (if the command line on your computer can be displayed). List below.
+"languageBot": "VI",
 
 // 1 = automatic shutdown, 0 = no shutdown
 "autoShutdown": 1,
@@ -84,10 +81,11 @@ Advanced File Customization ```config.json```
   "8": "W",
 }
 ```
+Languages: AM, AR, EU, BN, GB, BR, BG, CA, CHR, HR, CS, DA, NL, EN, ET, FIL, FI, FR, DE, EL, GU, IW, HI , HU, IS, ID, IT, JA, KN, KO, LV, LT, MS, ML, MR, NO, PL, PT, RO, RU, SR, CN, SK, SL, ES, SW, SV, TA , TE, TH, TW, TR, UR, UK, VI, CY.
 
 Advanced customization for unsupported servers
 ===========
-In some game distributions, you may encounter a case where the file path does not have a default value like in the settings file ```appsettings.json```. The workaround is to point each file to its correct address. There are 6 files that need to be configured manually as shown below.
+In some game distributions, you may encounter a case where the file path does not have a default value like in the settings file ```appsettings.json``` or the bot can't install itself. The workaround is to point each file to its correct address. There are 6 files that need to be configured manually as shown below.
 
 <p align="center">
   <img src="https://github.com/kgemas/League-AI/raw/main/Assets/adventureConfig.PNG">
