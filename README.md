@@ -88,6 +88,8 @@ Tuỳ chỉnh nâng cao tệp ```config.json```
 ```
 Danh sách ngôn ngữ: AM, AR, EU, BN, GB, BR, BG, CA, CHR, HR, CS, DA, NL, EN, ET, FIL, FI, FR, DE, EL, GU, IW, HI, HU, IS, ID, IT, JA, KN, KO, LV, LT, MS, ML, MR, NO, PL, PT, RO, RU, SR, CN, SK, SL, ES, SW, SV, TA, TE, TH, TW, TR, UR, UK, VI, CY.
 
+Danh sách tướng: Aatrox, Ahri, Akali, Alistar, Amumu, Anivia, Annie, Aphelios, Ashe, Azir, Bard, Blitzcrank, Brand, Braum, Caitlyn, Cassiopeia, Chogath, Corki, Darius, Diana, DrMundo, Draven, Ekko, Elise, Evelynn, Ezreal, FiddleSticks, Fiora, Fizz, Galio, Gangplank, Garen, Gnar, Gragas, Graves, Hecarim, Heimerdinger, Illaoi, Irelia, Ivern, Janna, JarvanIV, Jax, Jayce, Jinx, Kalista, Karma, Karthus, Kassadin, Katarina, Kayle, Kennen, Khazix, Kindred, Kled, KogMaw, Leblanc, LeeSin, Leona, Lissandra, Lucian, Lulu, Lux, Malphite, Malzahar, Maokai, MasterYi, MissFortune, MonkeyKing, Mordekaiser, Morgana, Nami, Nasus, Nautilus, Neeko, Nidalee, Nocturne, Nunu, Olaf, Orianna, Ornn, Pantheon, Poppy, Pyke, Qiyana, Quinn, Rakan, Rammus, Reksai, Renekton, Rengar, Riven, Rumble, Ryze, Sejuani, Senna, Sett, Shaco, Shen, Shyvana, Singed, Sion, Sivir, Skarner, Sona, Soraka, Swain, Sylas, Syndra, Talon, Taric, Teemo, Thresh, Tristana, Trundle, Tryndamere, TwistedFate, Twitch, Udyr, Urgot, Varus, Vayne, Veigar, Velkoz, Vi, Viktor, Vladimir, Volibear, Warwick, Xayah, Xerath, XinZhao, Yasuo, Yorick, Yuumi, Zac, Zed, Ziggs, Zilean, Zyra.
+
 Tuỳ chỉnh nâng cao cho những máy chủ chưa được hỗ trợ
 ===========
 Trong một vài bản phân phối game, có thể bạn sẽ gặp phải trường hợp mà đường dẫn các tệp tin không có giá trị mặc định như trong tệp cài đặt ```appsettings.json``` hoặc bot không tự cài đặt được.
