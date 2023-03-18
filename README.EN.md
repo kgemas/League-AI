@@ -81,7 +81,9 @@ Advanced File Customization ```config.json```
   "8": "W",
 }
 ```
-Languages: AM, AR, EU, BN, GB, BR, BG, CA, CHR, HR, CS, DA, NL, EN, ET, FIL, FI, FR, DE, EL, GU, IW, HI , HU, IS, ID, IT, JA, KN, KO, LV, LT, MS, ML, MR, NO, PL, PT, RO, RU, SR, CN, SK, SL, ES, SW, SV, TA , TE, TH, TW, TR, UR, UK, VI, CY.
+- Languages: AM, AR, EU, BN, GB, BR, BG, CA, CHR, HR, CS, DA, NL, EN, ET, FIL, FI, FR, DE, EL, GU, IW, HI , HU, IS, ID, IT, JA, KN, KO, LV, LT, MS, ML, MR, NO, PL, PT, RO, RU, SR, CN, SK, SL, ES, SW, SV, TA , TE, TH, TW, TR, UR, UK, VI, CY.
+
+- Champions: Aatrox, Ahri, Akali, Alistar, Amumu, Anivia, Annie, Aphelios, Ashe, Azir, Bard, Blitzcrank, Brand, Braum, Caitlyn, Cassiopeia, Chogath, Corki, Darius, Diana, DrMundo, Draven, Ekko, Elise, Evelynn, Ezreal, FiddleSticks, Fiora, Fizz, Galio, Gangplank, Garen, Gnar, Gragas, Graves, Hecarim, Heimerdinger, Illaoi, Irelia, Ivern, Janna, JarvanIV, Jax, Jayce, Jinx, Kalista, Karma, Karthus, Kassadin, Katarina, Kayle, Kennen, Khazix, Kindred, Kled, KogMaw, Leblanc, LeeSin, Leona, Lissandra, Lucian, Lulu, Lux, Malphite, Malzahar, Maokai, MasterYi, MissFortune, MonkeyKing, Mordekaiser, Morgana, Nami, Nasus, Nautilus, Neeko, Nidalee, Nocturne, Nunu, Olaf, Orianna, Ornn, Pantheon, Poppy, Pyke, Qiyana, Quinn, Rakan, Rammus, Reksai, Renekton, Rengar, Riven, Rumble, Ryze, Sejuani, Senna, Sett, Shaco, Shen, Shyvana, Singed, Sion, Sivir, Skarner, Sona, Soraka, Swain, Sylas, Syndra, Talon, Taric, Teemo, Thresh, Tristana, Trundle, Tryndamere, TwistedFate, Twitch, Udyr, Urgot, Varus, Vayne, Veigar, Velkoz, Vi, Viktor, Vladimir, Volibear, Warwick, Xayah, Xerath, XinZhao, Yasuo, Yorick, Yuumi, Zac, Zed, Ziggs, Zilean, Zyra.
 
 Advanced customization for unsupported servers
 ===========
