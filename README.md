@@ -94,7 +94,7 @@ Tuỳ chỉnh nâng cao cho những máy chủ chưa được hỗ trợ
 ===========
 Trong một vài bản phân phối game, có thể bạn sẽ gặp phải trường hợp mà đường dẫn các tệp tin không có giá trị mặc định như trong tệp cài đặt ```appsettings.json``` hoặc bot không tự cài đặt được.
 
-Cách giải quyết là hãy trỏ từng tệp tin đến đúng địa chỉ của nó. Có 6 tệp tin cần phải cấu hình tay như hình dưới.
+Cách giải quyết là hãy trỏ từng tệp tin đến đúng địa chỉ của nó (bao gồm đường dẫn đầy đủ). Có 6 tệp tin cần phải cấu hình tay như hình dưới.
 
 <p align="center">
   <img src="https://github.com/kgemas/League-AI/raw/main/Assets/adventureConfig.PNG">
