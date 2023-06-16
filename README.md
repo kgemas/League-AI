@@ -100,11 +100,7 @@ Cách giải quyết là hãy trỏ từng tệp tin đến đúng địa chỉ 
   <img src="https://github.com/kgemas/League-AI/raw/main/Assets/adventureConfig.PNG">
 </p>
 
-Tuỳ chọn ```DefaultLeaguePath``` là đường dẫn gốc chứa game. Tất cả 5 tuỳ chọn còn lại sẽ có ```Đường dẫn = DefaultLeaguePath + "giá trị trong file json"```.
-
-Cụ thể hơn, ví dụ như ```LeagueGameconfigPath``` như trong hình sẽ có đường dẫn thật sự là ```G:\\Game\\LOL\\LOL_Game\\32787\\Game\\Config\\game.cfg```.
-
-Bạn hãy tìm đến đúng file và rút gọn đường dẫn lại để nó phù hợp với cách cộng chuỗi. Cấu hình những file này để phần mềm có quyền đọc API.
+Bạn hãy tìm đến đúng file có trong thư mục game. Mục đích cấu hình những file này để phần mềm có quyền đọc API.
 
 
 
