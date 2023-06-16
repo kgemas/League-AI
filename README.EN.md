@@ -87,17 +87,13 @@ Advanced File Customization ```config.json```
 
 Advanced customization for unsupported servers
 ===========
-In some game distributions, you may encounter a case where the file path does not have a default value like in the settings file ```appsettings.json``` or the bot can't install itself. The workaround is to point each file to its correct address. There are 6 files that need to be configured manually as shown below.
+In some game distributions, you may encounter a case where the file path does not have a default value like in the settings file ```appsettings.json``` or the bot can't install itself. The workaround is to point each file to its correct address (the full path of the file). There are 6 files that need to be configured manually as shown below.
 
 <p align="center">
   <img src="https://github.com/kgemas/League-AI/raw/main/Assets/adventureConfig.PNG">
 </p>
 
-The ```DefaultLeaguePath``` option is the game's root path. All remaining 5 options will have Path = DefaultLeaguePath + "remaining value".
-
-More specifically, for example ```LeagueGameconfigPath``` as shown in the picture will have the actual path as ```G:\\Game\\LOL\\LOL_Game\\32787\\Game\\Config\\game.cfg```.
-
-Find the correct file and shorten the path to match string addition. Until the publisher fixes the bug, this configuration will remain active. Because the software needs to use these profiles to get permission to read the API.
+Until the publisher fixes the bug, this configuration will remain active. Because the software needs to use these profiles to get permission to read the API.
 
 Updates and patches
 ===========
