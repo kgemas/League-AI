@@ -27,6 +27,9 @@
   </p>
 </details>
 
+- Bạn có thể xem trang Thống kê thời gian thực người sử dụng: https://sso.khaivu.dev
+
+https://github.com/kgemas/League-AI/assets/44091521/9f034e9f-9858-4606-bb4a-0c878b594012
 
 Tải về
 ===
