@@ -26,6 +26,10 @@ What is this?
   </p>
 </details>
 
+- Real-time statistics page: https://sso.khaivu.dev
+
+https://github.com/kgemas/League-AI/assets/44091521/9f034e9f-9858-4606-bb4a-0c878b594012
+
 
 Download
 ===
