@@ -1,0 +1,17 @@
+
+.vs
+[Pp]ackages
+[Oo]bj
+[Bb]in
+*.user
+.git
+.gita
+!Binaries/*.zip
+Binaries
+*.lnk
+
+*.db
+League-of-Legends-Bot/Binaries/LeagueAI.zip
+League-of-Legends-Bot/ServiceLeagueAI/Data/LeagueAI.Libraries.Embed.dll
+Data
+ServiceLeagueAI.xml
