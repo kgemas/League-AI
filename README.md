@@ -15,6 +15,9 @@
   <a href="https://github.com/kgemas/League-AI/blob/main/README.EN.md">[English]</a>
 </p
 
+Xin chào, tôi là Khải Vũ, nhà phát triển duy nhất của dự án này.
+Sau Vanguard, dự án này đã ngừng hỗ trợ chính thức, phiên bản 0.1.15 là phiên bản cuối cùng. Tôi đã fork mã nguồn để bot có thể hoạt động trên máy tính cá nhân. Đã lâu rồi kể từ khi nó được phát hành với mục tiêu ban đầu là mọi người có thể sử dụng nó trên máy tính cá nhân của mình như một công cụ tiết kiệm thời gian vô nghĩa. Thời gian trôi qua thật nhanh, tôi không còn đủ thời gian để tiếp tục phát triển công cụ này nữa, nhưng hy vọng chúng ta sẽ gặp lại nhau trong một phần mềm kỳ lạ khác trên github này 🤗
+
 Đây là gì?
 ===
 - Đây là con bot tự chơi game liên minh huyền thoại.
