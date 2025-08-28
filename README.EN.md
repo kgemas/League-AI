@@ -14,6 +14,9 @@
   <a href="https://github.com/kgemas/League-AI/blob/main/README.EN.md">[English]</a>
 </p
 
+Hello, I am Khai Vu, the sole developer of this project.
+After Vanguard, this project has stopped official support, version 0.1.15 is the last version, I forked the source code so that the bot can work on personal computers. It's been a long time since it was released with my original goal that everyone can use it on their own personal computers as a meaningless time-saving tool. Time flies so fast, I don't have enough time to continue developing this tool, but i hope we will meet again in another strange software at this github 🤗
+
 What is this?
 ===
 - This is a self-playing bot of league of legends.
